@@ -1,6 +1,6 @@
 package main
 
-import "github.com/cdejesusdx/godesde0/ejercicios"
+import "github.com/cdejesusdx/godesde0/teclado"
 
 func main() {
 	/*
@@ -28,10 +28,14 @@ func main() {
 	   	fmt.Printf("%s \n", os)
 
 	   }
-	*/
+
 
 	number, message := ejercicios.ConvertToNumber("M")
 	println("El numero convertido es", number)
 	println("El resultado de la operacion:", message)
+
+	*/
+
+	teclado.IngresoNumeros()
 
 }
