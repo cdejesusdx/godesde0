@@ -30,7 +30,7 @@ func main() {
 	   }
 	*/
 
-	number, message := ejercicios.ConvertToNumber("200")
+	number, message := ejercicios.ConvertToNumber("M")
 	println("El numero convertido es", number)
 	println("El resultado de la operacion:", message)
 
