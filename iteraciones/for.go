@@ -1,4 +1,4 @@
-package interaciones
+package iteraciones
 
 import (
 	"fmt"

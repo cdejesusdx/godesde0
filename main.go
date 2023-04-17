@@ -1,6 +1,6 @@
 package main
 
-import "github.com/cdejesusdx/godesde0/interaciones"
+import "github.com/cdejesusdx/godesde0/iteraciones"
 
 func main() {
 	/*
@@ -36,6 +36,6 @@ func main() {
 
 	teclado.IngresoNumeros()*/
 
-	interaciones.InterarToContinue()
+	iteraciones.InterarToContinue()
 
 }
