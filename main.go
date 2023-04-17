@@ -1,6 +1,6 @@
 package main
 
-import "github.com/cdejesusdx/godesde0/teclado"
+import "github.com/cdejesusdx/godesde0/interaciones"
 
 func main() {
 	/*
@@ -34,8 +34,8 @@ func main() {
 	println("El numero convertido es", number)
 	println("El resultado de la operacion:", message)
 
-	*/
+	teclado.IngresoNumeros()*/
 
-	teclado.IngresoNumeros()
+	interaciones.InterarToContinue()
 
 }
