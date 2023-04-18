@@ -1,6 +1,8 @@
 package main
 
-import "github.com/cdejesusdx/godesde0/iteraciones"
+import (
+	"github.com/cdejesusdx/godesde0/files"
+)
 
 func main() {
 	/*
@@ -34,8 +36,13 @@ func main() {
 	println("El numero convertido es", number)
 	println("El resultado de la operacion:", message)
 
-	teclado.IngresoNumeros()*/
+	teclado.IngresoNumeros()
 
-	iteraciones.InterarToContinue()
+	fmt.Printf(ejercicios.TablaDeMultiplicar())*/
+
+	// files.GrabarTabla()
+	// files.SumarTabla()
+
+	files.LeerArchivo2()
 
 }
