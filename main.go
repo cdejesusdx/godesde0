@@ -1,6 +1,8 @@
 package main
 
-import "github.com/cdejesusdx/godesde0/mapas"
+import (
+	"github.com/cdejesusdx/godesde0/usuarios"
+)
 
 func main() {
 	/*
@@ -44,6 +46,7 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglos_slices.MostrarSlice()
+	//mapas.MostrarMapas()
 
-	mapas.MostrarMapas()
+	usuarios.AgregarUsuario()
 }
