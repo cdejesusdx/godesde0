@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/cdejesusdx/godesde0/files"
-)
+import "github.com/cdejesusdx/godesde0/mapas"
 
 func main() {
 	/*
@@ -42,7 +40,10 @@ func main() {
 
 	// files.GrabarTabla()
 	// files.SumarTabla()
+	//files.LeerArchivo2()
+	//funciones.Exponencia(2)
 
-	files.LeerArchivo2()
+	//arreglos_slices.MostrarSlice()
 
+	mapas.MostrarMapas()
 }
