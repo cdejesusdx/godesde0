@@ -11,7 +11,7 @@ type Usuario struct {
 	FechaCreacion time.Time
 }
 
-func (this Usuario) AgregarUsuario(id int, nombre string, estado bool, fechaCreacion time.Time) {
+func (this *Usuario) AgregarUsuario(id int, nombre string, estado bool, fechaCreacion time.Time) {
 	this.Id = id
 	this.Nombre = nombre
 	this.Estado = estado
