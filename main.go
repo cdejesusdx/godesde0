@@ -1,6 +1,6 @@
 package main
 
-import "github.com/cdejesusdx/godesde0/webserver"
+import "github.com/cdejesusdx/godesde0/middleware"
 
 func main() {
 	/*
@@ -57,7 +57,9 @@ func main() {
 	fmt.Printf("El estado del canal es %t \n ", estado)
 
 	//var x string
-	//fmt.Scan(&x)*/
+	//fmt.Scan(&x)
 
-	webserver.MiWebServer2()
+	webserver.MiWebServer2()*/
+
+	middleware.MiMiddleware()
 }
