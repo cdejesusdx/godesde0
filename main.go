@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/cdejesusdx/godesde0/usuarios"
+	"fmt"
+
+	"github.com/cdejesusdx/godesde0/goroutines"
 )
 
 func main() {
@@ -47,6 +49,17 @@ func main() {
 
 	//arreglos_slices.MostrarSlice()
 	//mapas.MostrarMapas()
+	//usuarios.AgregarUsuario()
 
-	usuarios.AgregarUsuario()
+	var estado bool = false
+	chanel := make(chan bool)
+	go goroutines.MostrarNombreEnLento("Carlos", chanel)
+	defer func() {
+		estado = <-chanel
+	}()
+
+	fmt.Printf("El estado del canal es %t \n", estado)
+
+	//var x string
+	//fmt.Scan(&x)
 }
