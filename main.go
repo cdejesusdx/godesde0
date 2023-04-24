@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/cdejesusdx/godesde0/goroutines"
-)
+import "github.com/cdejesusdx/godesde0/webserver"
 
 func main() {
 	/*
@@ -40,7 +36,7 @@ func main() {
 
 	teclado.IngresoNumeros()
 
-	fmt.Printf(ejercicios.TablaDeMultiplicar())*/
+	fmt.Printf(ejercicios.TablaDeMultiplicar())
 
 	// files.GrabarTabla()
 	// files.SumarTabla()
@@ -58,8 +54,10 @@ func main() {
 		estado = <-chanel
 	}()
 
-	fmt.Printf("El estado del canal es %t \n", estado)
+	fmt.Printf("El estado del canal es %t \n ", estado)
 
 	//var x string
-	//fmt.Scan(&x)
+	//fmt.Scan(&x)*/
+
+	webserver.MiWebServer2()
 }
